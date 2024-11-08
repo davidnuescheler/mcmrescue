@@ -11,13 +11,16 @@
  */
 
  :root {
+  --rust-color: #bb5e4b;
+  --dark-rust-color: #ab4e3b;
+
   /* colors */
   --background-color: white;
   --light-color: #f8f8f8;
   --dark-color: #505050;
   --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+  --link-color: var(--rust-color);
+  --link-hover-color: var(--dark-rust-color);
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback, sans-serif;

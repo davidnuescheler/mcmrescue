@@ -17,11 +17,16 @@
 
 .columns > div > .columns-img-col img {
   display: block;
+  margin: 0 auto;
+}
+
+.columns img {
+  margin: unset;
 }
 
 @media (width >= 900px) {
   .columns > div {
-    align-items: center;
+    align-items: start;
     flex-direction: unset;
     gap: 24px;
   }

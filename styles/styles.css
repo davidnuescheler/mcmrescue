@@ -32,9 +32,9 @@
   --body-font-size-xs: 17px;
 
   /* heading sizes */
-  --heading-font-size-xxl: 55px;
-  --heading-font-size-xl: 44px;
-  --heading-font-size-l: 34px;
+  --heading-font-size-xxl: 40px;
+  --heading-font-size-xl: 36px;
+  --heading-font-size-l: 30px;
   --heading-font-size-m: 27px;
   --heading-font-size-s: 24px;
   --heading-font-size-xs: 22px;
@@ -222,9 +222,10 @@ button.secondary {
 }
 
 main img {
-  max-width: 100%;
+  max-width: calc(100% + 64px);
   width: auto;
   height: auto;
+  margin-left: -32px;
 }
 
 .icon {

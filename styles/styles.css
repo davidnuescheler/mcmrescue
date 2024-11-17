@@ -11,8 +11,8 @@
  */
 
  :root {
-  --rust-color: #bb5e4b;
-  --dark-rust-color: #ab4e3b;
+  --rust-color: #ab4e3b;
+  --dark-rust-color: #9b3e2b;
 
   /* colors */
   --background-color: white;

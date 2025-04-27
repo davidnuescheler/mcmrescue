@@ -149,9 +149,11 @@ header .nav-brand p {
 }
 
 header nav .nav-brand img, header nav .nav-brand span.icon {
-  width: 2em;
-  height: 1em;
+  display: block;
+  height: 1.7em;
+  width: 3.5em;
   margin-right: 4px;
+  margin-top: 0.1em;
 }
 
 /* sections */
